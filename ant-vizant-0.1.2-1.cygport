@@ -1,0 +1,10 @@
+ORIG_PN="vizant"
+inherit ant
+
+DESCRIPTION="Ant task for visualizing build.xml files with GraphViz"
+HOMEPAGE="http://vizant.sourceforge.net/"
+SRC_URI="mirror://sourceforge/vizant/${ORIG_PN}-${PV}.zip"
+SRC_DIR=${ORIG_PN}
+
+ANT_INSTALL_TASKS="build/vizant.jar"
+DOCS="docs/index.html docs/main.css"
